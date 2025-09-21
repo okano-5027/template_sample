@@ -24,7 +24,7 @@
 ##  共通パラメータ（Key-Value / 必須）　★ここの記載はあとで見直す。いるかも含めて
 - `abtest_id`: <!-- TODO -->
 - `endpoint_name`: <!-- TODO: 例) assets_recommend_gen_user_vector_v1_8 -->
-- `model_names`（複数なら改行）:<!-- TODO: 例 assets_query_tower_v1_8 assets_candidate_tower_v1_8 -->
+- `model_names`: <!-- TODO: 例 assets_query_tower_v1_8 assets_candidate_tower_v1_8 -->
 
 - `artifact_registry_repo`: <!-- TODO: 例) asia-northeast1-docker.pkg.dev/dev-recommend-engine/starts-two-tower -->
 - `gcs_model_artifacts`: <!-- TODO: 例) gs://model_develop/pipeline/assets/v_1_8_0/DATA/MODEL -->
@@ -63,7 +63,7 @@
 - [ ] (12) 「インポート」押下 → 完了（完了画面スクショはPRコメントへ）
 
 ### 手順１-登録後の最小確認
-- [ ] モデル一覧に **入力名** が出現
+- [ ] モデル一覧に **手順（３）のモデル名** が出現
 - [ ] 詳細に **選択コンテナ** & **Routes** が反映
 - [ ] **GCS パス** が意図どおり
 
